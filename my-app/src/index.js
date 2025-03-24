@@ -13,11 +13,19 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <NotificationList />
+    <Accommodate />
   </React.StrictMode>,
   document.getElementById('root')
 );
 
+/*
+root.render(
+  <React.StrictMode>
+    <NotificationList />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+*/
 /*
 root.render(
   <React.StrictMode>
