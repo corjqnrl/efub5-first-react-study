@@ -11,7 +11,7 @@ import NotificationList from './chapter_06/NotificationList';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(
+root.render(  // Accommodate 연결
   <React.StrictMode>
     <Accommodate />
   </React.StrictMode>,
